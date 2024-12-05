@@ -1,6 +1,4 @@
 import FormButton from "../FormButton";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRotate, faTrash } from '@fortawesome/free-solid-svg-icons';
 
 type Props = {
     rotate: () => void;

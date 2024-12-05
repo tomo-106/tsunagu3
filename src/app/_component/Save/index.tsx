@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSave } from "@fortawesome/free-solid-svg-icons";
-import { addData, getAllData, deleteData } from '../Db/db';
-import { useEffect, useState } from 'react';
+import { addData, getAllData } from '../Db/db';
+import { useState } from 'react';
 
 type ItemType = {
     id: number;

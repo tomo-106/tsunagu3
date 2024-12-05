@@ -2,7 +2,7 @@ import styles from './index.module.css';
 
 import {  useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight, faArrowDown, faPlus, faMinus, faTrash, faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import { faArrowDown, faPlus, faMinus, faTrash, faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 type Props = {
     label: string;

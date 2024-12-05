@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleQuestion, faComment, faList } from '@fortawesome/free-solid-svg-icons';
 type ItemType = {
     id: number;
     text: string;

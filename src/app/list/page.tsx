@@ -3,7 +3,7 @@
 import ListItemGroup from "../_component/ListItemGroup"
 
 import { useEffect, useState } from 'react';
-import { addData, getAllData, deleteData } from '../_component/Db/db';
+import {  getAllData, deleteData } from '../_component/Db/db';
 type ItemType = {
     id: number;
     text: string;

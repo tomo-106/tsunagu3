@@ -60,5 +60,5 @@ const Search = forwardRef<CustomRef, Props>(
             </div>
         )
     });
-
+Search.displayName = "Search";
 export default Search;
